@@ -1,5 +1,9 @@
 class BlogsController < ApplicationController
 
+  def index
+
+  end
+
   def new
     @blog = Blog.new
   end
@@ -7,4 +11,3 @@ class BlogsController < ApplicationController
   def show
   end
 end
-
